@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4eec790ce9.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Porfolio Gabriel Teresczuk</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+
+    
+    <div class="background">
+        <header>
+            <div class="headerContainer">
+                <div class="logo">Teresczuk <div>Gabriel</div> </div>
+                <nav>
+                    <ul class="navbar">
+                        <li class="active">HOME</li>
+                        <li class="hvr-underline-from-left"><a href="#proyectos">PROYECTOS</a></li>
+                        <li class="hvr-underline-from-left"><a href="cv.pdf" target="_blank">CV</a></li>
+                        <li class="hvr-underline-from-left"><a href="acerca.html">ACERCA</a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="heroContainer">
+            <div class="hero">
+                <div class="heroTexto">
+                    <h1>Hola!</h1>
+                    <h2>Soy Gabriel y este es mi Portafolio</h2>
+                    <p>Analista de Sistemas IT y FrontEnd Developer</p>
+                    <ul class="heroTextoLista">
+                        <li><b><i class="fa-solid fa-check"></i></b> Pro Activo</li>
+                        <li><b><i class="fa-solid fa-check"></i></b> Autodidacta</li>
+                        <li><b><i class="fa-solid fa-check"></i></b> TeamWork</li>
+                    </ul>
+                    <a href="#proyectos"><button class="heroTextoButton">VER PROYECTOS</button></a>
+                </div>
+                <div class="heroImg"><img src="hero.png" alt=""></div>
+            </div>    
+        </div>
+
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+
+    </div>
+    <div class="contenidoContenedor">
+        <main class="contenido">
+
+            <h2 class="contenidoTitulo" id="proyectos"> Proyectos</h2>
+
+            <div class="contenido__menu">
+                <div id="contenido__menu__proy"> Proyectos: 20</div>
+                <div >
+                    <i class="fa-solid fa-arrow-down-short-wide"></i>
+                    <label for="order">Ordenar:</label>
+                    <select name="order" id="order">
+                        <option value="defecto">defecto</option>
+                        <option value="fechaasc">fecha ⬆</option>
+                        <option value="fechades">fecha ⬇</option>
+                        <option value="dificultad+">dificultad ⬆</option>
+                        <option value="dificultad-">dificultad ⬇</option>
+                    </select>
+                </div> 
+            </div>
+
+            <div class="cardsContainer" id="cardsContainer">
+
+
+                
+                <div class="contenidoMas"><button> + Ver Mas</button></div>
+
+             </div>
+
+
+        </main>
+        
+    </div>
+    <div class="footerContainer">
+        <footer class="footer">
+                <div class="footerContent">
+                    <div class="footerRedes">
+                        <a href="https://www.facebook.com/gabriel.teresczuk/" target="_blank"><div class="redes"><i class="fa-brands fa-facebook-f"></i></div></a>
+                        <a href="https://github.com/gabrielteresczuk" target="_blank"><div class="redes"><i class="fa-brands fa-github"></i></div></a>
+                        <a href="https://twitter.com/" target="_blank"><div class="redes"><i class="fa-brands fa-twitter"></i></i></div></a>
+                        <a href="https://www.linkedin.com/in/gabriel-teresczuk/" target="_blank"><div class="redes"><i class="fa-brands fa-linkedin-in"></i></div></a>
+                    </div>
+                    <div class="footerNav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#proyectos">Proyectos</a></li>
+                            <li><a href="cv.pdf" target="_blank">CV</a></li>
+                            <li><a href="acerca.html">Acerca</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerAutor">
+                    © 2022 Teresczuk Gabriel. All Rights Reserved.
+                </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
+
+<script>
+    AOS.init();
+</script>
+
+<script src="db.js"></script>
+
+<script src="app.js"></script>
