@@ -226,7 +226,32 @@ let datos = [
         demo:'https://gabrielteresczuk.github.io/todo-app/',
         repo:'https://github.com/gabrielteresczuk/todo-app',
         dificultad:4
+    },
+    {
+        id:20,
+        titulo:'Ejercicios Eloquent',
+        img:'img/eloquent.png',
+        fecha:'29-08-2022',
+        resumen:'Resolucion a problemas del libro eloquent',
+        descripcion:'Proyecto, donde se presentan soluciones para las actividades del libro eloquent',
+        tecnologias:['HTML','CSS','JS'],
+        demo:'https://gabrielteresczuk.github.io/eloquent/',
+        repo:'https://github.com/gabrielteresczuk/eloquent',
+        dificultad:3
+    },
+    {
+        id:21,
+        titulo:'Ecommerce-VirtualStore',
+        img:'img/virtualstore.png',
+        fecha:'28-12-2022',
+        resumen:'Trabajo Final FullStack Coderhouse',
+        descripcion:'Proyecto, donde se realiza un ecommerce, el frontent esta hecho con React y el backend se realizo con Node+Express+MongoDB, cuenta con opciones de desarollo y produccion, factory de base de datos y todas las capas bien definidas.',
+        tecnologias:['HTML','CSS','JS','React','Node','express'],
+        demo:'https://virtualstore-production.up.railway.app/',
+        repo:'https://github.com/gabrielteresczuk/virtualstore',
+        dificultad:5
     }
+
     
 
 

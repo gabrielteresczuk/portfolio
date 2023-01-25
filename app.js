@@ -70,9 +70,8 @@ const cargar = (datosACargar = datos) =>{
                 <div class="cardLeftDificultad">${dificultad[el.dificultad-1]}</div>
                 <div class="cardLeftTextoTags">${el.tecnologias.map(tec => `<span>${tec}</span>` ).join('')}</div>
                 <div class="cardLeftTextoButtons">
-                    <a href="${el.demo}" target="_blank"><button> <i class="fa-solid fa-eye"></i> Ver </button></a>
-                    <button> <i class="fa-solid fa-code"></i> Explorar</button>
-                    <a href="${el.repo}" target="_blank"><button> <i class="fa-brands fa-github"></i> Github</button></a>
+                    <a href="${el.demo}" target="_blank"><button> <i class="fa-solid fa-eye"></i> Demo Online </button></a>
+                    <a href="${el.repo}" target="_blank"><button> <i class="fa-brands fa-github"></i>Ver en Github</button></a>
                 </div>
     
             </div>
