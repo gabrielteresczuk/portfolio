@@ -250,6 +250,18 @@ let datos = [
         demo:'https://virtualstore-production.up.railway.app/',
         repo:'https://github.com/gabrielteresczuk/virtualstore',
         dificultad:5
+    },
+    {
+        id:21,
+        titulo:'50Proyectos50Dias',
+        img:'img/50Proyectos50Dias.png',
+        fecha:'23-01-2023',
+        resumen:'Practica de CSS y JavaScript',
+        descripcion:'Proyecto, donde realizamos diversos challenge de HTML, CSS y Javascript. Ideal para entrenar todo lo aprendido y tambien para aprender nuevas tecnicas y metodologias.',
+        tecnologias:['HTML','CSS','JS'],
+        demo:'https://gabrielteresczuk.github.io/50Proyects50Days/',
+        repo:'https://github.com/gabrielteresczuk/50Proyects50Days',
+        dificultad:4
     }
 
     
