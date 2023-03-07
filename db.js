@@ -223,7 +223,7 @@ let datos = [
         resumen:'Aplicacion de Tareas con cambio de temas',
         descripcion:'Proyecto a modo de desafio donde hay que realizar una lista de tareas, que pueda cambiar de temas, que mantenga en memoria los datos y lo nuevo es que se puedan ordenar de manera Drag and Drop.',
         tecnologias:['HTML','CSS','JS','React'],
-        demo:'https://gabrielteresczuk.github.io/todo-app/',
+        demo:'https://virtualstore-production-9a48.up.railway.app/',
         repo:'https://github.com/gabrielteresczuk/todo-app',
         dificultad:4
     },
@@ -270,7 +270,7 @@ let datos = [
         fecha:'01-02-2023',
         resumen:'Practica de CSS, JavaScript y React',
         descripcion:'Proyecto, donde realizamos diversos challenge de HTML, CSS, Javascript y React. Perfecto para practicar las funciones de javascript en el framework React.js  .',
-        tecnologias:['HTML','CSS','JS'],
+        tecnologias:['HTML','CSS','JS','React.js'],
         demo:'https://gabrielteresczuk.github.io/20projectsreact/',
         repo:'https://github.com/gabrielteresczuk/20projectsreact',
         dificultad:4
