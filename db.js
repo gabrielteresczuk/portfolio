@@ -262,6 +262,18 @@ let datos = [
         demo:'https://gabrielteresczuk.github.io/50Proyects50Days/',
         repo:'https://github.com/gabrielteresczuk/50Proyects50Days',
         dificultad:4
+    },
+    {
+        id:22,
+        titulo:'20ProyectosEnReact',
+        img:'img/20proyectosreact.jpg',
+        fecha:'01-02-2023',
+        resumen:'Practica de CSS, JavaScript y React',
+        descripcion:'Proyecto, donde realizamos diversos challenge de HTML, CSS, Javascript y React. Perfecto para practicar las funciones de javascript en el framework React.js  .',
+        tecnologias:['HTML','CSS','JS'],
+        demo:'https://gabrielteresczuk.github.io/20projectsreact/',
+        repo:'https://github.com/gabrielteresczuk/20projectsreact',
+        dificultad:4
     }
 
     
