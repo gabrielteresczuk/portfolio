@@ -223,7 +223,7 @@ let datos = [
         resumen:'Aplicacion de Tareas con cambio de temas',
         descripcion:'Proyecto a modo de desafio donde hay que realizar una lista de tareas, que pueda cambiar de temas, que mantenga en memoria los datos y lo nuevo es que se puedan ordenar de manera Drag and Drop.',
         tecnologias:['HTML','CSS','JS','React'],
-        demo:'https://virtualstore-production-9a48.up.railway.app/',
+        demo:'https://virtualstore-production.up.railway.app/',
         repo:'https://github.com/gabrielteresczuk/todo-app',
         dificultad:4
     },
